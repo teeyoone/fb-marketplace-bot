@@ -1,0 +1,12 @@
+# Secrets
+.env
+facebook_state.json
+
+# Personal data
+saved_products.json
+marketplace_results.csv
+
+# Other
+__pycache__/
+*.pyc
+tempCodeRunnerFile.python
