@@ -2,12 +2,12 @@
 
 <h3 align="center">A Python bot that scrapes Facebook Marketplace listings using Playwright, BeautifulSoup, and FastAPI — with a Streamlit GUI frontend.</h3>
 
-> ⚠️ Use this software at your own risk. Automating Facebook interactions may violate their terms of service and could result in account restrictions.
+> Use this software at your own risk. Automating Facebook interactions may violate their terms of service and could result in account restrictions.
 > Using Playwright imitates human behavior, which helps bypass bot detection — but it is still not guaranteed.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This program scrapes listings from Facebook Marketplace using headless browser automation. You can:
 
@@ -88,7 +88,7 @@ A browser window will open. Log in manually. Once logged in, your session will b
 
 ---
 
-## ▶️ Running the App
+## Running the App
 
 ### Option 1: Streamlit GUI
 
@@ -111,7 +111,7 @@ Then visit in your browser:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 marketplace-bot/
@@ -133,15 +133,10 @@ marketplace-bot/
 
 ---
 
-## 📌 Notes
+## Notes
 
 * `facebook_state.json` is your personal login session. It is gitignored and only exists locally.
 * `saved_products.json` and `marketplace_results.csv` are output files saved by your scraper/tracker.
 * You can add OpenAI-powered features later and push updates.
 
 ---
-
-## 📢 Contact
-
-Created and maintained by **@your-username**
-Feel free to fork, contribute, or open issues!
